@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8ABCFFCCC5F9DF83E7D8021 /* Pods_Microdent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8A7570F578A26AF8288E0B /* Pods_Microdent.framework */; };
 		D44D40CB1D5DE57800F8D845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D40CA1D5DE57800F8D845 /* AppDelegate.swift */; };
 		D44D40CD1D5DE57800F8D845 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D40CC1D5DE57800F8D845 /* ViewController.swift */; };
 		D44D40D01D5DE57800F8D845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44D40CE1D5DE57800F8D845 /* Main.storyboard */; };
@@ -26,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21C3B4515163B530EF77D8F2 /* Pods-Microdent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Microdent.release.xcconfig"; path = "Pods/Target Support Files/Pods-Microdent/Pods-Microdent.release.xcconfig"; sourceTree = "<group>"; };
+		5D8A7570F578A26AF8288E0B /* Pods_Microdent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Microdent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E9B9CC985C711AE915F0E41 /* Pods-Microdent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Microdent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Microdent/Pods-Microdent.debug.xcconfig"; sourceTree = "<group>"; };
 		D44D40C71D5DE57800F8D845 /* Microdent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Microdent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44D40CA1D5DE57800F8D845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D44D40CC1D5DE57800F8D845 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8ABCFFCCC5F9DF83E7D8021 /* Pods_Microdent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +61,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8EECE6C5849BA0D5CAF01932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D8A7570F578A26AF8288E0B /* Pods_Microdent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9295E07B43BD418CF4F4A177 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E9B9CC985C711AE915F0E41 /* Pods-Microdent.debug.xcconfig */,
+				21C3B4515163B530EF77D8F2 /* Pods-Microdent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D44D40BE1D5DE57800F8D845 = {
 			isa = PBXGroup;
 			children = (
 				D44D40C91D5DE57800F8D845 /* Microdent */,
 				D44D40DE1D5DE57800F8D845 /* MicrodentTests */,
 				D44D40C81D5DE57800F8D845 /* Products */,
+				9295E07B43BD418CF4F4A177 /* Pods */,
+				8EECE6C5849BA0D5CAF01932 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D44D40E41D5DE57800F8D845 /* Build configuration list for PBXNativeTarget "Microdent" */;
 			buildPhases = (
+				E8B6078D1FF9B270752429EB /* [CP] Check Pods Manifest.lock */,
 				D44D40C31D5DE57800F8D845 /* Sources */,
 				D44D40C41D5DE57800F8D845 /* Frameworks */,
 				D44D40C51D5DE57800F8D845 /* Resources */,
+				54961BA2E1F3325955D67478 /* [CP] Embed Pods Frameworks */,
+				9E87D74F57CE6F4BD4292415 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +220,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54961BA2E1F3325955D67478 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Microdent/Pods-Microdent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E87D74F57CE6F4BD4292415 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Microdent/Pods-Microdent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B6078D1FF9B270752429EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D44D40C31D5DE57800F8D845 /* Sources */ = {
@@ -329,6 +404,7 @@
 		};
 		D44D40E51D5DE57800F8D845 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9B9CC985C711AE915F0E41 /* Pods-Microdent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Microdent/Info.plist;
@@ -340,6 +416,7 @@
 		};
 		D44D40E61D5DE57800F8D845 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C3B4515163B530EF77D8F2 /* Pods-Microdent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Microdent/Info.plist;
@@ -392,6 +469,7 @@
 				D44D40E61D5DE57800F8D845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D44D40E71D5DE57800F8D845 /* Build configuration list for PBXNativeTarget "MicrodentTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +478,7 @@
 				D44D40E91D5DE57800F8D845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
