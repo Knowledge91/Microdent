@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		B8ABCFFCCC5F9DF83E7D8021 /* Pods_Microdent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8A7570F578A26AF8288E0B /* Pods_Microdent.framework */; };
 		D44D40CB1D5DE57800F8D845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D40CA1D5DE57800F8D845 /* AppDelegate.swift */; };
-		D44D40CD1D5DE57800F8D845 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D40CC1D5DE57800F8D845 /* ViewController.swift */; };
+		D44D40CD1D5DE57800F8D845 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D40CC1D5DE57800F8D845 /* SignInViewController.swift */; };
 		D44D40D01D5DE57800F8D845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44D40CE1D5DE57800F8D845 /* Main.storyboard */; };
 		D44D40D21D5DE57800F8D845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44D40D11D5DE57800F8D845 /* Assets.xcassets */; };
 		D44D40D51D5DE57800F8D845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44D40D31D5DE57800F8D845 /* LaunchScreen.storyboard */; };
 		D44D40E01D5DE57800F8D845 /* MicrodentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D40DF1D5DE57800F8D845 /* MicrodentTests.swift */; };
+		D4B8D6911D5E0A93001CA0F7 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8D6901D5E0A93001CA0F7 /* FirstScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +33,7 @@
 		7E9B9CC985C711AE915F0E41 /* Pods-Microdent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Microdent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Microdent/Pods-Microdent.debug.xcconfig"; sourceTree = "<group>"; };
 		D44D40C71D5DE57800F8D845 /* Microdent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Microdent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44D40CA1D5DE57800F8D845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D44D40CC1D5DE57800F8D845 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D44D40CC1D5DE57800F8D845 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D44D40CF1D5DE57800F8D845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D44D40D11D5DE57800F8D845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D44D40D41D5DE57800F8D845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 		D44D40DB1D5DE57800F8D845 /* MicrodentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrodentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44D40DF1D5DE57800F8D845 /* MicrodentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrodentTests.swift; sourceTree = "<group>"; };
 		D44D40E11D5DE57800F8D845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B8D6901D5E0A93001CA0F7 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				D44D40CA1D5DE57800F8D845 /* AppDelegate.swift */,
-				D44D40CC1D5DE57800F8D845 /* ViewController.swift */,
+				D44D40CC1D5DE57800F8D845 /* SignInViewController.swift */,
+				D4B8D6901D5E0A93001CA0F7 /* FirstScreenViewController.swift */,
 				D44D40CE1D5DE57800F8D845 /* Main.storyboard */,
 				D44D40D11D5DE57800F8D845 /* Assets.xcassets */,
 				D44D40D31D5DE57800F8D845 /* LaunchScreen.storyboard */,
@@ -274,8 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D44D40CD1D5DE57800F8D845 /* ViewController.swift in Sources */,
+				D44D40CD1D5DE57800F8D845 /* SignInViewController.swift in Sources */,
 				D44D40CB1D5DE57800F8D845 /* AppDelegate.swift in Sources */,
+				D4B8D6911D5E0A93001CA0F7 /* FirstScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
