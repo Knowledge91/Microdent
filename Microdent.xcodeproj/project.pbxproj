@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D44D40CB1D5DE57800F8D845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D40CA1D5DE57800F8D845 /* AppDelegate.swift */; };
+		D44D40CD1D5DE57800F8D845 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D40CC1D5DE57800F8D845 /* ViewController.swift */; };
+		D44D40D01D5DE57800F8D845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44D40CE1D5DE57800F8D845 /* Main.storyboard */; };
+		D44D40D21D5DE57800F8D845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44D40D11D5DE57800F8D845 /* Assets.xcassets */; };
+		D44D40D51D5DE57800F8D845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44D40D31D5DE57800F8D845 /* LaunchScreen.storyboard */; };
+		D44D40E01D5DE57800F8D845 /* MicrodentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D40DF1D5DE57800F8D845 /* MicrodentTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D44D40DC1D5DE57800F8D845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D44D40BF1D5DE57800F8D845 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D44D40C61D5DE57800F8D845;
+			remoteInfo = Microdent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D44D40C71D5DE57800F8D845 /* Microdent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Microdent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44D40CA1D5DE57800F8D845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D44D40CC1D5DE57800F8D845 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D44D40CF1D5DE57800F8D845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D44D40D11D5DE57800F8D845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D44D40D41D5DE57800F8D845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D44D40D61D5DE57800F8D845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44D40DB1D5DE57800F8D845 /* MicrodentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrodentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44D40DF1D5DE57800F8D845 /* MicrodentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrodentTests.swift; sourceTree = "<group>"; };
+		D44D40E11D5DE57800F8D845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D44D40C41D5DE57800F8D845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44D40D81D5DE57800F8D845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D44D40BE1D5DE57800F8D845 = {
+			isa = PBXGroup;
+			children = (
+				D44D40C91D5DE57800F8D845 /* Microdent */,
+				D44D40DE1D5DE57800F8D845 /* MicrodentTests */,
+				D44D40C81D5DE57800F8D845 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D44D40C81D5DE57800F8D845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D44D40C71D5DE57800F8D845 /* Microdent.app */,
+				D44D40DB1D5DE57800F8D845 /* MicrodentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D44D40C91D5DE57800F8D845 /* Microdent */ = {
+			isa = PBXGroup;
+			children = (
+				D44D40CA1D5DE57800F8D845 /* AppDelegate.swift */,
+				D44D40CC1D5DE57800F8D845 /* ViewController.swift */,
+				D44D40CE1D5DE57800F8D845 /* Main.storyboard */,
+				D44D40D11D5DE57800F8D845 /* Assets.xcassets */,
+				D44D40D31D5DE57800F8D845 /* LaunchScreen.storyboard */,
+				D44D40D61D5DE57800F8D845 /* Info.plist */,
+			);
+			path = Microdent;
+			sourceTree = "<group>";
+		};
+		D44D40DE1D5DE57800F8D845 /* MicrodentTests */ = {
+			isa = PBXGroup;
+			children = (
+				D44D40DF1D5DE57800F8D845 /* MicrodentTests.swift */,
+				D44D40E11D5DE57800F8D845 /* Info.plist */,
+			);
+			path = MicrodentTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D44D40C61D5DE57800F8D845 /* Microdent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44D40E41D5DE57800F8D845 /* Build configuration list for PBXNativeTarget "Microdent" */;
+			buildPhases = (
+				D44D40C31D5DE57800F8D845 /* Sources */,
+				D44D40C41D5DE57800F8D845 /* Frameworks */,
+				D44D40C51D5DE57800F8D845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Microdent;
+			productName = Microdent;
+			productReference = D44D40C71D5DE57800F8D845 /* Microdent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D44D40DA1D5DE57800F8D845 /* MicrodentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44D40E71D5DE57800F8D845 /* Build configuration list for PBXNativeTarget "MicrodentTests" */;
+			buildPhases = (
+				D44D40D71D5DE57800F8D845 /* Sources */,
+				D44D40D81D5DE57800F8D845 /* Frameworks */,
+				D44D40D91D5DE57800F8D845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D44D40DD1D5DE57800F8D845 /* PBXTargetDependency */,
+			);
+			name = MicrodentTests;
+			productName = MicrodentTests;
+			productReference = D44D40DB1D5DE57800F8D845 /* MicrodentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D44D40BF1D5DE57800F8D845 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Emexs;
+				TargetAttributes = {
+					D44D40C61D5DE57800F8D845 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 96KFLNV49G;
+					};
+					D44D40DA1D5DE57800F8D845 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 96KFLNV49G;
+						TestTargetID = D44D40C61D5DE57800F8D845;
+					};
+				};
+			};
+			buildConfigurationList = D44D40C21D5DE57800F8D845 /* Build configuration list for PBXProject "Microdent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D44D40BE1D5DE57800F8D845;
+			productRefGroup = D44D40C81D5DE57800F8D845 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D44D40C61D5DE57800F8D845 /* Microdent */,
+				D44D40DA1D5DE57800F8D845 /* MicrodentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D44D40C51D5DE57800F8D845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44D40D51D5DE57800F8D845 /* LaunchScreen.storyboard in Resources */,
+				D44D40D21D5DE57800F8D845 /* Assets.xcassets in Resources */,
+				D44D40D01D5DE57800F8D845 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44D40D91D5DE57800F8D845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D44D40C31D5DE57800F8D845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44D40CD1D5DE57800F8D845 /* ViewController.swift in Sources */,
+				D44D40CB1D5DE57800F8D845 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44D40D71D5DE57800F8D845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44D40E01D5DE57800F8D845 /* MicrodentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D44D40DD1D5DE57800F8D845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D44D40C61D5DE57800F8D845 /* Microdent */;
+			targetProxy = D44D40DC1D5DE57800F8D845 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D44D40CE1D5DE57800F8D845 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D44D40CF1D5DE57800F8D845 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D44D40D31D5DE57800F8D845 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D44D40D41D5DE57800F8D845 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D44D40E21D5DE57800F8D845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D44D40E31D5DE57800F8D845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D44D40E51D5DE57800F8D845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Microdent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Microdent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D44D40E61D5DE57800F8D845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Microdent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Microdent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D44D40E81D5DE57800F8D845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MicrodentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MicrodentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Microdent.app/Microdent";
+			};
+			name = Debug;
+		};
+		D44D40E91D5DE57800F8D845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MicrodentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MicrodentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Microdent.app/Microdent";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D44D40C21D5DE57800F8D845 /* Build configuration list for PBXProject "Microdent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44D40E21D5DE57800F8D845 /* Debug */,
+				D44D40E31D5DE57800F8D845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44D40E41D5DE57800F8D845 /* Build configuration list for PBXNativeTarget "Microdent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44D40E51D5DE57800F8D845 /* Debug */,
+				D44D40E61D5DE57800F8D845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D44D40E71D5DE57800F8D845 /* Build configuration list for PBXNativeTarget "MicrodentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44D40E81D5DE57800F8D845 /* Debug */,
+				D44D40E91D5DE57800F8D845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D44D40BF1D5DE57800F8D845 /* Project object */;
+}
