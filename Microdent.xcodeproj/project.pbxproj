@@ -14,7 +14,6 @@
 		D44D40D21D5DE57800F8D845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44D40D11D5DE57800F8D845 /* Assets.xcassets */; };
 		D44D40D51D5DE57800F8D845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44D40D31D5DE57800F8D845 /* LaunchScreen.storyboard */; };
 		D44D40E01D5DE57800F8D845 /* MicrodentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D40DF1D5DE57800F8D845 /* MicrodentTests.swift */; };
-		D4B8D6911D5E0A93001CA0F7 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8D6901D5E0A93001CA0F7 /* FirstScreenViewController.swift */; };
 		D4B8D6931D5E0EA6001CA0F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4B8D6921D5E0EA6001CA0F7 /* GoogleService-Info.plist */; };
 		D4C1AF5B1D5EFF76005DCB03 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C1AF5A1D5EFF76005DCB03 /* AppState.swift */; };
 		D4C1AF5D1D5F05C2005DCB03 /* PatientDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C1AF5C1D5F05C2005DCB03 /* PatientDirectoryViewController.swift */; };
@@ -44,7 +43,6 @@
 		D44D40DB1D5DE57800F8D845 /* MicrodentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrodentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44D40DF1D5DE57800F8D845 /* MicrodentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrodentTests.swift; sourceTree = "<group>"; };
 		D44D40E11D5DE57800F8D845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4B8D6901D5E0A93001CA0F7 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
 		D4B8D6921D5E0EA6001CA0F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D4C1AF5A1D5EFF76005DCB03 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		D4C1AF5C1D5F05C2005DCB03 /* PatientDirectoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientDirectoryViewController.swift; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 				D4C1AF5C1D5F05C2005DCB03 /* PatientDirectoryViewController.swift */,
 				D4C1AF5A1D5EFF76005DCB03 /* AppState.swift */,
 				D44D40CC1D5DE57800F8D845 /* SignInViewController.swift */,
-				D4B8D6901D5E0A93001CA0F7 /* FirstScreenViewController.swift */,
 				D44D40CE1D5DE57800F8D845 /* Main.storyboard */,
 				D44D40D11D5DE57800F8D845 /* Assets.xcassets */,
 				D44D40D31D5DE57800F8D845 /* LaunchScreen.storyboard */,
@@ -290,7 +287,6 @@
 				D4C1AF5D1D5F05C2005DCB03 /* PatientDirectoryViewController.swift in Sources */,
 				D44D40CD1D5DE57800F8D845 /* SignInViewController.swift in Sources */,
 				D44D40CB1D5DE57800F8D845 /* AppDelegate.swift in Sources */,
-				D4B8D6911D5E0A93001CA0F7 /* FirstScreenViewController.swift in Sources */,
 				D4C1AF5B1D5EFF76005DCB03 /* AppState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
