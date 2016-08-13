@@ -7,7 +7,19 @@
 //
 
 import UIKit
+import Firebase
 
 class FirstScreenViewController: UIViewController {
 
+    // MARK: Actions
+    @IBAction func didTapSignOut(sender: UIButton) {
+        let firebaseAuth = FIRAuth.auth()
+        do {
+            try firebaseAuth?.signOut()
+            AppState.sharedInstance.signedIn = false
+            dismissViewControllerAnimated(true, completion: nil)
+        } catch let signOutError as NSError {
+            print("Error signing out: \(signOutError)")
+        }
+    }
 }

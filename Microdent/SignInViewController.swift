@@ -12,14 +12,15 @@ import Firebase
 class SignInViewController: UIViewController, UITextFieldDelegate {
     
     // MARK: Properties
-    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var testLabel: UILabel!
+    @IBOutlet weak var passwordField: UITextField!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        emailTextField.delegate = self
+        emailField.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,10 +42,30 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
     
     
     // MARK: Actions
-    @IBAction func login(sender: UIButton) {
-        testLabel.text = "Default Text"
-        performSegueWithIdentifier("ShowFirstScreen", sender: sender)
+    @IBAction func didTapSignIn(sender: UIButton) {
+        //Sign in with credentials.
+        let email = emailField.text
+        let password = passwordField.text
+        
+        FIRAuth.auth()?.signInWithEmail(email!, password: password!) { (user, error) in
+            if let error = error {
+                print(error.localizedDescription)
+                return
+            }
+            self.signedIn(user!)
+        }
     }
+    
+    func signedIn(user: FIRUser?) {
+        AppState.sharedInstance.displayName = user?.email
+        AppState.sharedInstance.signedIn = true
+        
+        
+        self.performSegueWithIdentifier("ShowFirstScreen",  sender: nil)
+
+    }
+    
+    
 
 }
 

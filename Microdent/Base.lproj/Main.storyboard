@@ -41,7 +41,7 @@
                                         <rect key="frame" x="235" y="60" width="91" height="30"/>
                                         <state key="normal" title="Iniciar Sesión"/>
                                         <connections>
-                                            <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="33J-QB-hyM"/>
+                                            <action selector="didTapSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="syN-7G-e2D"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -67,7 +67,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="emailTextField" destination="t6c-qC-weF" id="fG8-Ba-D1u"/>
+                        <outlet property="emailField" destination="t6c-qC-weF" id="ekw-aX-xO8"/>
+                        <outlet property="passwordField" destination="BO4-bA-sAU" id="Ln0-fH-BbG"/>
                         <outlet property="testLabel" destination="90h-Kq-LNe" id="Bbf-dO-Uln"/>
                         <segue destination="XNa-hc-dMv" kind="show" identifier="ShowFirstScreen" id="7Wl-Xi-EUK"/>
                     </connections>
@@ -76,10 +77,10 @@
             </objects>
             <point key="canvasLocation" x="325" y="400"/>
         </scene>
-        <!--First Screen Controller-->
+        <!--First Screen View Controller-->
         <scene sceneID="JIq-fq-cOE">
             <objects>
-                <viewController id="XNa-hc-dMv" customClass="FirstScreenController" customModule="Microdent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XNa-hc-dMv" customClass="FirstScreenViewController" customModule="Microdent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6w3-t7-zjQ"/>
                         <viewControllerLayoutGuide type="bottom" id="sES-am-mYl"/>
@@ -94,6 +95,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edg-fE-esd">
+                                <rect key="frame" x="463" y="83" width="58" height="30"/>
+                                <state key="normal" title="sign Out"/>
+                                <connections>
+                                    <action selector="didTapSignOut:" destination="XNa-hc-dMv" eventType="touchUpInside" id="j25-Qu-uMC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -101,6 +109,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CeW-p0-ZR8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1044" y="400"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0wY-o0-AMk">
+            <objects>
+                <viewController id="wTx-TA-Ypf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pWL-hj-7bb"/>
+                        <viewControllerLayoutGuide type="bottom" id="ia2-2n-vJH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="clV-8w-Be6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vB6-B7-wB8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1759" y="400"/>
         </scene>
     </scenes>
 </document>
